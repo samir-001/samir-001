@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<!--
+
 **samir-001/samir-001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -12,4 +12,4 @@ Here are some ideas to get you started:
 - 💬 Ask me about Front-end
 - 📫 How to reach me: samir.nabil1001@gmail.com
 - 😄 Pronouns: He ^_^!
--->
+
