@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on hollat
+- 🔭 I’m currently working in hollat
 - 🌱 I’m currently learning back-end (nodeJs - ASP.NET)
 - 👯 I’m looking to collaborate on CRM Project
 - 🤔 I’m looking for help with server administrator
