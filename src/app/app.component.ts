@@ -16,5 +16,6 @@ export class AppComponent {
   title = 'samir-001';
   changeLanguage() {
     this.translateService.use('ar');
+    
   }
 }
