@@ -1,13 +1,20 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { ButtonModule } from 'primeng/button';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [ButtonModule,TranslateModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'my-app';
+  constructor(public translateService:TranslateService) {
+    this.translateService.setDefaultLang('en');
+  }
+  title = 'samir-001';
+  changeLanguage() {
+    this.translateService.use('ar');
+  }
 }
