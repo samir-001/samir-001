@@ -1,6 +1,6 @@
 <div class="card" [dir]="currentLang === 'ar' ? 'rtl' : 'ltr'">
   <p-menubar class="main-nav" [model]="items">
-    <ng-template pTemplate="start">
+    <ng-template pTemplate="end">
         <div class="logo"  >
           <p>S &nbsp;</p>
           <h4>Samir</h4>
@@ -30,7 +30,7 @@
         ></i>
       </a>
     </ng-template>
-    <ng-template pTemplate="end">
+    <ng-template pTemplate="start">
       <button (click)="changeLang()">change</button>
     </ng-template>
 

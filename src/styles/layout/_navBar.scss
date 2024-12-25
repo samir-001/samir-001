@@ -7,11 +7,12 @@ p-menubar.main-nav {
   p-menubarsub {
     flex: 1;
     display: flex;
+    justify-content: flex-start;
+
   }
 }
 html[dir="ltr"] {
-  .p-menubar,
-  .p-menubar p-menubarsub {
+  .p-menubar {
     flex-direction: row-reverse;
   }
 }
