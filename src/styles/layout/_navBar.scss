@@ -1,0 +1,17 @@
+p-menubar.main-nav {
+  .p-menubar {
+    padding: 1rem 2.5rem;
+    border: none;
+    background: none;
+  }
+  p-menubarsub {
+    flex: 1;
+    display: flex;
+  }
+}
+html[dir="ltr"] {
+  .p-menubar,
+  .p-menubar p-menubarsub {
+    flex-direction: row-reverse;
+  }
+}

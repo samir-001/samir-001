@@ -1,0 +1,38 @@
+// Define breakpoints
+$breakpoints: (
+  xs: 576px,
+  sm: 769px,
+  md: 960px,
+  lg: 1200px,
+  xl: 1400px
+);
+
+// Mixin for max-width
+@mixin max-breakpoint($name) {
+  // Check if the breakpoint exists in the map
+  @if map-has-key($breakpoints, $name) {
+    $value: map-get($breakpoints, $name);
+    @media (max-width: #{$value}) {
+      @content;
+    }
+  } @else {
+    @error "Breakpoint '#{$name}' not found in \$breakpoints.";
+  }
+}
+
+// Mixin for min-width
+@mixin min-breakpoint($name) {
+  // Check if the breakpoint exists in the map
+  @if map-has-key($breakpoints, $name) {
+    $value: map-get($breakpoints, $name);
+    @media (min-width: #{$value}) {
+      @content;
+    }
+  } @else {
+    @error "Breakpoint '#{$name}' not found in \$breakpoints.";
+  }
+}
+
+// Example usage
+
+// Max-width for 'md'

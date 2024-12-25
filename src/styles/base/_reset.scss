@@ -1,0 +1,14 @@
+@use "../abstracts/mixins.scss" as *;
+:root {
+  font-size: 100%;
+}
+@include max-breakpoint(sm) {
+  :root {
+    font-size: 87%;
+  }
+}
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}

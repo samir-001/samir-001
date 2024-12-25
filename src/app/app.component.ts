@@ -1,21 +1,21 @@
 import { Component } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { ButtonModule } from 'primeng/button';
+import { ThemingService } from './core/services/theming.service';
+import { LandingPageComponent } from './layout/landing-page/landing-page.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ButtonModule,TranslateModule],
+  imports: [ButtonModule, TranslateModule, LandingPageComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  constructor(public translateService:TranslateService) {
-    this.translateService.setDefaultLang('en');
+  constructor(
+    public translateService: TranslateService,
+    private themes: ThemingService
+  ) {
   }
-  title = 'samir-001';
-  changeLanguage() {
-    this.translateService.use('ar');
-    
-  }
+  title = 'Samir-001';
 }
