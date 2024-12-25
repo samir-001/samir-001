@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  position: relative;
+  padding: 3rem;
+  img {
+    width: 6.25rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: absolute;
+
+    border: 1px solid #e0e0e0;
+  }
+  .last {
+    top: 0;
+    left: 0;
+  }
+  .first {
+    width: 4.25rem;
+
+    bottom: 3rem;
+    right: 0;
+  }
+  .content {
+    border-radius: 1.25rem;
+    border: 1px solid #e0e0e0;
+    padding: 30px 20px 20px 60px;
+    font-size: .875rem;
+  }
+}

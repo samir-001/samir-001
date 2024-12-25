@@ -1,0 +1,14 @@
+<h4 class="styled-header">testimonial</h4>
+<div dir="ltr">
+  <p-carousel
+    [responsiveOptions]="responsiveOptions"
+    [value]="[].constructor(3)"
+    [numVisible]="2"
+    [numScroll]="1"
+    [showNavigators]="false"
+  >
+    <ng-template let-item pTemplate="item">
+      <app-testimonial-card></app-testimonial-card>
+    </ng-template>
+  </p-carousel>
+</div>
