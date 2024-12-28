@@ -1,14 +1,15 @@
 <h4 class="styled-header">clients</h4>
 <div dir="ltr">
   <p-carousel
+  
     [responsiveOptions]="responsiveOptions"
-    [value]="[].constructor(7)"
+    [value]="data"
     [numVisible]="6"
     [numScroll]="1"
     [showNavigators]="false"
   >
     <ng-template let-item pTemplate="item">
-      <div class="item"></div>
+      <span [class]=" 'item icon '+ item"></span>
     </ng-template>
   </p-carousel>
 </div>

@@ -2,13 +2,13 @@
 <div dir="ltr">
   <p-carousel
     [responsiveOptions]="responsiveOptions"
-    [value]="[].constructor(3)"
+    [value]="test"
     [numVisible]="2"
     [numScroll]="1"
     [showNavigators]="false"
   >
     <ng-template let-item pTemplate="item">
-      <app-testimonial-card></app-testimonial-card>
+      <app-testimonial-card [testimonial]="item"></app-testimonial-card>
     </ng-template>
   </p-carousel>
 </div>

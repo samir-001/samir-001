@@ -11,6 +11,11 @@ import { CarouselModule, CarouselResponsiveOptions } from 'primeng/carousel';
 })
 export class TestimonialComponent implements OnInit {
   responsiveOptions!: CarouselResponsiveOptions[]  ;
+  test =[
+    'image-1.jpeg',
+    'image-2.jpg',
+    'image-3.jpg'
+  ]   ;
   ngOnInit() {
     this.responsiveOptions = [
       {
