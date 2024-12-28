@@ -1,0 +1,91 @@
+.icon {
+  &::before {
+    content: "";
+    display: inline-block;
+    background: black;
+    width: 5rem;
+    height: 5rem;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+  }
+  &:hover {
+   &::before {
+     background: rgb(95, 73, 73);
+   }
+  }
+}
+
+.bootstrap {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/bootstrapsvg.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/bootstrapsvg.svg);
+  }
+}
+.angular-01 {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/angular-01.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/angular-01.svg);
+  }
+}
+.Css {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/Css.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/Css.svg);
+  }
+}
+.html {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/html.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/html.svg);
+  }
+}
+.js {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/js.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/js.svg);
+  }
+}
+.react-01 {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/react-01.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/react-01.svg);
+  }
+}
+.scss-01 {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/scss-01.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/scss-01.svg);
+  }
+}
+.educational {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/educational-01.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/educational-01.svg);
+  }
+}
+.webStore-02 {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/webStore2-01.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/webStore2-01.svg);
+  }
+}
+.webStore-01 {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/webStore-01.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/webStore-01.svg);
+  }
+}
+.ERP {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/ERP-f-01-01.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/ERP-f-01-01.svg);
+  }
+}
+.crm {
+  &::before {
+    mask-image: url(./../../../public/assets/icons/crm.svg);
+    -webkit-mask-image: url(./../../../public/assets/icons/crm.svg);
+  }
+}

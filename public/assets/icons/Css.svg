@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{stroke:#000000;stroke-width:13;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'NotoKufiArabic-Regular';}
+	.st4{font-size:154.5142px;}
+</style>
+<g>
+	<path class="st0" d="M60.8,29.3l41.2,396.5L246.4,470l144.3-44.3L432,29.3H60.8z"/>
+	<path class="st0" d="M130.6,121.8h220.2l-23.2,232L246.4,377l-81.2-23.2l-5.8-58"/>
+	<path class="st0" d="M339.4,226.2H141.7"/>
+</g>
+<path class="st1" d="M37,333.6h428c6.6,0,12-5.4,12-12V219.1c0-6.6-5.4-12-12-12H37c-6.6,0-12,5.4-12,12v102.5
+	C25,328.2,30.4,333.6,37,333.6z"/>
+<path class="st2" d="M460.5,330.4h-420c-6.6,0-12-5.4-12-12v-96c0-6.6,5.4-12,12-12h420c6.6,0,12,5.4,12,12v96
+	C472.5,325,467.1,330.4,460.5,330.4z"/>
+<text transform="matrix(1 0 0 1 132.3379 316.418)" class="st3 st4">css</text>
+</svg>
