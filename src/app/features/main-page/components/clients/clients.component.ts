@@ -9,7 +9,7 @@ import { CarouselModule, CarouselResponsiveOptions } from 'primeng/carousel';
   styleUrl: './clients.component.scss'
 })
 export class ClientsComponent implements OnInit {
-  public data = ['angular-01','bootstrap','Css','html','react-01','scss-01','js','crm','ERP','webStore-01','webStore-02','educational']
+  public data = ['html','Css','js','angular-01','react-01','scss-01','bootstrap']
   responsiveOptions!: CarouselResponsiveOptions[] 
   ngOnInit() {
     this.responsiveOptions = [
