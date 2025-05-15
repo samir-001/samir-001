@@ -2,11 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { CarouselModule, CarouselResponsiveOptions } from 'primeng/carousel';
 
 @Component({
-  selector: 'app-clients',
-  standalone: true,
-  imports: [CarouselModule],
-  templateUrl: './clients.component.html',
-  styleUrl: './clients.component.scss'
+    selector: 'app-clients',
+    imports: [CarouselModule],
+    templateUrl: './clients.component.html',
+    styleUrl: './clients.component.scss'
 })
 export class ClientsComponent implements OnInit {
   public data = ['html','Css','js','angular-01','react-01','scss-01','bootstrap']

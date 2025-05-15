@@ -5,11 +5,10 @@ import { ThemingService } from './core/services/theming.service';
 import { LandingPageComponent } from './layout/landing-page/landing-page.component';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [ButtonModule, TranslateModule, LandingPageComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+    selector: 'app-root',
+    imports: [ButtonModule, TranslateModule, LandingPageComponent],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   constructor(

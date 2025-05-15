@@ -3,11 +3,10 @@ import { SkillCardComponent } from '../skill-card/skill-card.component';
 import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-skills',
-  standalone: true,
-  imports: [SkillCardComponent, NgFor],
-  templateUrl: './skills.component.html',
-  styleUrl: './skills.component.scss',
+    selector: 'app-skills',
+    imports: [SkillCardComponent, NgFor],
+    templateUrl: './skills.component.html',
+    styleUrl: './skills.component.scss'
 })
 export class SkillsComponent {
   public skills = [

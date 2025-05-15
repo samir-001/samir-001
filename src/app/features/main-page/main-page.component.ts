@@ -5,11 +5,10 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
 import { ClientsComponent } from './components/clients/clients.component';
 
 @Component({
-  selector: 'app-main-page',
-  standalone: true,
-  imports: [MainSectionComponent,SkillsComponent,TestimonialComponent,ClientsComponent],
-  templateUrl: './main-page.component.html',
-  styleUrl: './main-page.component.scss'
+    selector: 'app-main-page',
+    imports: [MainSectionComponent, SkillsComponent, TestimonialComponent, ClientsComponent],
+    templateUrl: './main-page.component.html',
+    styleUrl: './main-page.component.scss'
 })
 export class MainPageComponent {
 

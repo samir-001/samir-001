@@ -3,11 +3,10 @@ import { TestimonialCardComponent } from '../testimonial-card/testimonial-card.c
 import { CarouselModule, CarouselResponsiveOptions } from 'primeng/carousel';
 
 @Component({
-  selector: 'app-testimonial',
-  standalone: true,
-  imports: [TestimonialCardComponent, CarouselModule],
-  templateUrl: './testimonial.component.html',
-  styleUrl: './testimonial.component.scss',
+    selector: 'app-testimonial',
+    imports: [TestimonialCardComponent, CarouselModule],
+    templateUrl: './testimonial.component.html',
+    styleUrl: './testimonial.component.scss'
 })
 export class TestimonialComponent implements OnInit {
   responsiveOptions!: CarouselResponsiveOptions[]  ;

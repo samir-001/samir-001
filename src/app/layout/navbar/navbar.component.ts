@@ -11,21 +11,20 @@ import { MenuItem } from 'primeng/api';
 import { ButtonModule } from 'primeng/button';
 import { TranslationService } from '../../core/services/translation.service';
 @Component({
-  selector: 'app-navbar',
-  standalone: true,
-  imports: [
-    NgIf,
-    NgClass,
-    MenubarModule,
-    BadgeModule,
-    AvatarModule,
-    InputTextModule,
-    RippleModule,
-    ButtonModule,
-    TranslateModule,
-  ],
-  templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.scss',
+    selector: 'app-navbar',
+    imports: [
+        NgIf,
+        NgClass,
+        MenubarModule,
+        BadgeModule,
+        AvatarModule,
+        InputTextModule,
+        RippleModule,
+        ButtonModule,
+        TranslateModule,
+    ],
+    templateUrl: './navbar.component.html',
+    styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent implements OnInit {
   public currentLang = 'en';
