@@ -1,0 +1,23 @@
+# ملفات الكود الرئيسية
+*.ts linguist-language=TypeScript
+*.component.html linguist-language=TypeScript
+*.module.html linguist-language=TypeScript
+*.directive.html linguist-language=TypeScript
+*.pipe.html linguist-language=TypeScript
+*.css linguist-language=CSS
+*.scss linguist-language=CSS
+*.js linguist-language=TypeScript
+
+# تجاهل الملفات الغير مهمة
+node_modules/** linguist-vendored
+dist/** linguist-vendored
+out/** linguist-vendored
+build/** linguist-vendored
+*.json linguist-vendored
+*.lock linguist-vendored
+*.md linguist-vendored
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.svg linguist-vendored
+*.gif linguist-vendored
